@@ -1,0 +1,84 @@
+.Morning-class{
+    height: 250px;
+    width: 200px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow: 12px 12px 19px #333;
+    cursor: pointer;
+   
+ }
+ #Mon-Heading{
+    text-align: center;
+ }
+ .input-field{
+    margin: 0px 10px;
+    padding: 15px;
+    height: 20px;
+    width: 150px;
+    border: 1px solid lightblue;
+    border-radius: 15px;
+ }
+ #M-Paragraph{
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    color: lightskyblue;
+    text-align: center;
+    
+ }
+ #M-Price{
+    font-size: 20px;
+    text-align: center;
+ }
+ #Evening-class{
+    height: 250px;
+    width: 200px;
+    background-color: aliceblue;
+    border-radius:15px ;
+    box-shadow: 12px 12px 19px #333;
+    cursor: pointer;
+ }
+ #Evn-Heading{
+    text-align: center;
+ }
+ #E-Paragraph{
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    color: lightskyblue;
+    text-align: center;
+ }
+ #E-Price{
+    font-size: 20px;
+    text-align: center;
+ }
+ #send-btn{
+    margin: 5px auto;
+    height: 30px;
+    width: 130px;
+    background-color: blue;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    outline: none;
+    display: block;
+ }
+ @media (max-width:991px) {
+    #container-1{
+       flex-wrap: wrap;
+    }
+    .Morning-class{
+       margin: 20px auto;
+       width: 60%;
+       display: block;
+    }
+    #container-2{
+       flex-wrap: wrap;
+    }
+    #Evening-class{
+       margin: 20px auto;
+       width: 60%;
+       display: block;
+    }
+    
+ }
